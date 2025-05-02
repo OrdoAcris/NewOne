@@ -42,16 +42,16 @@ html {
 li { list-style: none;}
 b {color: var(--gold);}
 
-/* body {
-    
-   overflow-x: hidden;
-    -webkit-overflow-x: hidden; 
+body {
     position: relative;
     font-family: Lexend, sans-serif;
     font-size: var(--fsz-text);
     background-color: var(--blue);
-    padding-top: 100%;
-} */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-overflow-x: hidden;
+}
 
 /* header {
     position: fixed;
@@ -90,15 +90,6 @@ header:has(.show) {
     transition: background-color 0.3s ease;
     background-color: var(--dark-blue);
 } */
-
-body {
-    position: relative;
-    font-family: Lexend, sans-serif;
-    font-size: var(--fsz-text);
-    background-color: var(--blue);
-    margin: 0;
-    padding: 0;
-}
 
 header {
     position: fixed;
