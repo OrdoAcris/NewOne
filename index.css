@@ -53,7 +53,7 @@ body {
     -webkit-overflow-x: hidden;
 }
 
-/* header {
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -89,9 +89,9 @@ body {
 header:has(.show) {
     transition: background-color 0.3s ease;
     background-color: var(--dark-blue);
-} */
+} 
 
-header {
+/*header {
     position: fixed;
     top: 0;
     left: 0;
@@ -111,7 +111,7 @@ header .container-fluid {
     justify-content: space-between;
     gap: 16px;
 }
-
+*/
 header .logo {
     display: flex;
     align-items: center;
@@ -140,8 +140,6 @@ header .logo_title {
 }
 
 .navbar-nav .nav-link {
-    border: 1px solid red; /* для отладки — потом можно убрать */
-    color: black;
     text-decoration: underline 1px var(--gold);
     text-underline-offset: 8px;
     transition: all 0.4s ease-in;
@@ -540,7 +538,6 @@ footer {
     }
 }
 .footer__nav {
-    border: 1px solid red;
     letter-spacing: var(--ls-text);
     display: flex;
     gap: 16px;
@@ -552,7 +549,6 @@ footer {
     }
 }
 footer .contacts {
-    border: 1px solid red;
     display: flex;
     gap: 24px;
     align-self: end;
